@@ -11,22 +11,7 @@ This repository contains the manuscript source, the relational catalog of catalo
 ```
 .
 ├── README.md                                  This file
-├── CHANGELOG.md                               Commit-by-commit log of substantive changes
-├── LICENSE                                    Licensing terms for code, data, and figures
-├── paper/                                     LaTeX source for the manuscript
-│   ├── main.tex                               Manuscript root
-│   ├── refs.bib                               Bibliography (60+ entries)
-│   ├── fig_taxonomy.tex                       Figure 1: taxonomy of diffusion roles
-│   ├── fig_timeline.tex                       Figure 2: yearly publication timeline
-│   ├── fig_prisma.tex                         Figure 3: PRISMA-style study selection flow
-│   ├── cas-sc.cls                             Elsevier CAS single-column class file
-│   ├── cas-common.sty                         Elsevier CAS common style file
-│   ├── cas-model2-names.bst                   BibTeX style (author-year)
-│   └── thumbnails/                            Icons used by the cas-sc class
-├── artifacts/
-│   ├── diffusion_attacks_screening.xlsx       Primary artifact (5 sheets, see below)
-│   └── diffusion_attacks_survey_catalog.xlsx  Standalone copy of the per-paper catalog
-└── main.pdf                                   Compiled manuscript (27 pages)
+├── diffusion_attacks_screening.xlsx       Primary artifact (5 sheets, see below)
 ```
 
 The primary artifact is `artifacts/diffusion_attacks_screening.xlsx`, which contains the screening log, the relational catalog, the legend, and the quality assessment as five sheets. The standalone catalog file is kept in sync as a convenience for users who want just the catalog.
