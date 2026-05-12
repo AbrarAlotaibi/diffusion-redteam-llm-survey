@@ -12,6 +12,8 @@ This repository contains the manuscript source, the relational catalog of catalo
 .
 ├── README.md                                  This file
 ├── diffusion_attacks_screening.xlsx       Primary artifact (5 sheets, see below)
+├── prompts.md       Agents prompts
+
 ```
 
 The primary artifact is `artifacts/diffusion_attacks_screening.xlsx`, which contains the screening log, the relational catalog, the legend, and the quality assessment as five sheets. The standalone catalog file is kept in sync as a convenience for users who want just the catalog.
