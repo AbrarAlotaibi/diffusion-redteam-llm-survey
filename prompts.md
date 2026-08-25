@@ -1,6 +1,6 @@
-# LLM-Agent Prompts for the Post-Hoc Inter-Rater Agreement Check
+# LLM-Agent Prompts for the Inter-Rater Agreement Check
 
-These are the two prompts used in the supplementary post-hoc agreement check described in Section 2.3 of the manuscript. The two agents re-screened the 154-record candidate pool independently. The intent of using two distinct prompting strategies is that disagreements should reflect genuine rule ambiguity rather than within-model consistency: a single agent prompted twice tends to reproduce its own decisions; two agents with different default tendencies surface the records where the inclusion rule is genuinely ambiguous.
+These are the two prompts used in the agreement check described in Section 2.3 of the manuscript. The two agents re-screened the 154-record candidate pool independently. The intent of using two distinct prompting strategies is that disagreements should reflect genuine rule ambiguity rather than within-model consistency: a single agent prompted twice tends to reproduce its own decisions; two agents with different default tendencies surface the records where the inclusion rule is genuinely ambiguous.
 
 Both agents received the same 154-record input as a JSON list with one entry per record. Each entry contained four fields: `n` (record number), `id` (arXiv ID or venue marker), `title` (full title), and `summary` (a one-sentence summary of the work derived from the abstract or paper page).
 
@@ -10,7 +10,7 @@ Cohen's κ between Agent A and Agent B on this pool was 0.781, with 89.6% observ
 
 ## Agent A — strict literal, default-to-exclude on ambiguity
 
-You are Agent A in a supplementary inter-agent agreement check for a literature review on diffusion-based adversarial attacks. Your job is to re-screen 154 candidate records using a strict literal interpretation of the inclusion rule. Do not write a long report; the output is a structured decision list.
+You are Agent A in a inter-agent agreement check for a literature review on diffusion-based adversarial attacks. Your job is to re-screen 154 candidate records using a strict literal interpretation of the inclusion rule. Do not write a long report; the output is a structured decision list.
 
 **Inclusion rule (apply STRICTLY and LITERALLY):**
 
@@ -49,7 +49,7 @@ Run through all 154 records. Be consistent.
 
 ## Agent B — reasoning-first, default-to-include on ambiguity
 
-You are Agent B in a supplementary inter-agent agreement check for a literature review on diffusion-based adversarial attacks. Your job is to re-screen 154 candidate records using a reasoning-first interpretation of the inclusion rule. Do not write a long report; the output is a structured decision list.
+You are Agent B in a inter-agent agreement check for a literature review on diffusion-based adversarial attacks. Your job is to re-screen 154 candidate records using a reasoning-first interpretation of the inclusion rule. Do not write a long report; the output is a structured decision list.
 
 **Inclusion rule (apply with reasoning-first interpretation):**
 
