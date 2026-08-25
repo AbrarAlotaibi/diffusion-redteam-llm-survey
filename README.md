@@ -58,7 +58,7 @@ This research is supported by a grant (No. CRPG-25-2057) under the Cybersecurity
 
 ## Contact
 
-- **Abrar Alotaibi** (corresponding author): `amotaibi@iau.edu.sa`. College of Computer Science and Information Technology, Imam Abdulrahman Bin Faisal University; SDAIA-KFUPM Joint Research Center for Artificial Intelligence.
+- **Abrar Alotaibi** (corresponding author): please get in touch by opening an issue on this repository. College of Computer Science and Information Technology, Imam Abdulrahman Bin Faisal University; SDAIA-KFUPM Joint Research Center for Artificial Intelligence.
 - **Moataz Ahmed**: `moataz@kfupm.edu.sa`. Information and Computer Science Department, King Fahd University of Petroleum & Minerals; SDAIA-KFUPM Joint Research Center for Artificial Intelligence.
 
 Please open an issue on this repository for corrections, additions, or methodological questions.
